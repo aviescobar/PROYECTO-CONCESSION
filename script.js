@@ -26,3 +26,4 @@ document.addEventListener('DOMContentLoaded', function() {
       // Event listeners para botões de navegação
       banner.querySelector('.prev').addEventListener('click', () => {
             const newIndex = currentSlide === 0 ? images.length - 1 : currentSlide - 1;
+            goToSlide(newIndex);
