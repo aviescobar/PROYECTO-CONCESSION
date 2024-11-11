@@ -16,3 +16,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // Função para trocar slide
       function goToSlide(index) {
+            images[currentSlide].classList.remove('active');
