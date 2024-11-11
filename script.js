@@ -34,6 +34,8 @@ document.addEventListener('DOMContentLoaded', function() {
              goToSlide(newIndex);
        });
 
+      // Autoplay do banner
+
 
 
 
