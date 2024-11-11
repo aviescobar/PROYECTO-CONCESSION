@@ -22,3 +22,5 @@ document.addEventListener('DOMContentLoaded', function() {
             images[currentSlide].classList.add('active');
             dotsContainer.children[currentSlide].classList.add('active');
        }
+
+      // Event listeners para botões de navegação
