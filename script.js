@@ -13,3 +13,5 @@ document.addEventListener('DOMContentLoaded', function() {
             dot.addEventListener('click', () => goToSlide(index));
             dotsContainer.appendChild(dot);
        });
+
+      // Função para trocar slide
