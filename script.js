@@ -15,3 +15,4 @@ document.addEventListener('DOMContentLoaded', function() {
        });
 
       // Função para trocar slide
+      function goToSlide(index) {
