@@ -40,6 +40,8 @@ document.addEventListener('DOMContentLoaded', function() {
             goToSlide(newIndex);
       }, 5000);
 
+});
+
 
 
 
