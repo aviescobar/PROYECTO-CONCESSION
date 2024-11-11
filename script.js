@@ -27,3 +27,22 @@ document.addEventListener('DOMContentLoaded', function() {
       banner.querySelector('.prev').addEventListener('click', () => {
             const newIndex = currentSlide === 0 ? images.length - 1 : currentSlide - 1;
             goToSlide(newIndex);
+      });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
