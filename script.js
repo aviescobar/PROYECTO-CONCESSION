@@ -7,4 +7,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // Criar dots para navegação
       images.forEach((_, index) => {
-      const dot = document.createElement('div');
+            const dot = document.createElement('div');
+            dot.classList.add('dot');
