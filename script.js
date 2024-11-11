@@ -10,3 +10,4 @@ document.addEventListener('DOMContentLoaded', function() {
             const dot = document.createElement('div');
             dot.classList.add('dot');
             if (index === 0) dot.classList.add('active');
+            dot.addEventListener('click', () => goToSlide(index));
