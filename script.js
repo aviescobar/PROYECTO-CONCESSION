@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
       });
 
        banner.querySelector('.next').addEventListener('click', () => {
+             const newIndex = currentSlide === images.length - 1 ? 0 : currentSlide + 1;
 
 
 
