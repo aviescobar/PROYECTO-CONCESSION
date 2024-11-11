@@ -11,3 +11,4 @@ document.addEventListener('DOMContentLoaded', function() {
             dot.classList.add('dot');
             if (index === 0) dot.classList.add('active');
             dot.addEventListener('click', () => goToSlide(index));
+            dotsContainer.appendChild(dot);
