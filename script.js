@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
       setInterval(() => {
             const newIndex = currentSlide === images.length - 1 ? 0 : currentSlide + 1;
             goToSlide(newIndex);
+      }, 5000);
 
 
 
