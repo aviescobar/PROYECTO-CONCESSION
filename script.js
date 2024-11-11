@@ -6,3 +6,4 @@ document.addEventListener('DOMContentLoaded', function() {
       let currentSlide = 0;
 
       // Criar dots para navegação
+      images.forEach((_, index) => {
