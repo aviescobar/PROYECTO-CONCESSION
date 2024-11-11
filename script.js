@@ -51,6 +51,8 @@ document.querySelectorAll('.tab').forEach(tab => {
 });
 
 
+document.querySelectorAll('.subtab').forEach(subtab => {
+
 
 
 
