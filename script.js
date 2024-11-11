@@ -24,3 +24,4 @@ document.addEventListener('DOMContentLoaded', function() {
        }
 
       // Event listeners para botões de navegação
+      banner.querySelector('.prev').addEventListener('click', () => {
