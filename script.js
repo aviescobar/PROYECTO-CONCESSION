@@ -48,6 +48,7 @@ document.querySelectorAll('.tab').forEach(tab => {
             document.querySelector('.tab.active').classList.remove('active');
             tab.classList.add('active');
       });
+});
 
 
 
