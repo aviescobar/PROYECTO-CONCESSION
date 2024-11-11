@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Autoplay do banner
       setInterval(() => {
             const newIndex = currentSlide === images.length - 1 ? 0 : currentSlide + 1;
+            goToSlide(newIndex);
 
 
 
