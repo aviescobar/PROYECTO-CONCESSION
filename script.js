@@ -20,3 +20,4 @@ document.addEventListener('DOMContentLoaded', function() {
             dotsContainer.children[currentSlide].classList.remove('active');
             currentSlide = index;
             images[currentSlide].classList.add('active');
+            dotsContainer.children[currentSlide].classList.add('active');
