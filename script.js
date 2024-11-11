@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 });
 // Tabs e subtabs
-
+document.querySelectorAll('.tab').forEach(tab => {
 
 
 
