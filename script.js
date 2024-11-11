@@ -9,3 +9,4 @@ document.addEventListener('DOMContentLoaded', function() {
       images.forEach((_, index) => {
             const dot = document.createElement('div');
             dot.classList.add('dot');
+            if (index === 0) dot.classList.add('active');
