@@ -18,3 +18,4 @@ document.addEventListener('DOMContentLoaded', function() {
       function goToSlide(index) {
             images[currentSlide].classList.remove('active');
             dotsContainer.children[currentSlide].classList.remove('active');
+            currentSlide = index;
