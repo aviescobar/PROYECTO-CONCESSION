@@ -21,3 +21,4 @@ document.addEventListener('DOMContentLoaded', function() {
             currentSlide = index;
             images[currentSlide].classList.add('active');
             dotsContainer.children[currentSlide].classList.add('active');
+       }
