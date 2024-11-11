@@ -45,6 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.querySelectorAll('.tab').forEach(tab => {
       tab.addEventListener('click', (e) => {
             e.preventDefault();
+            document.querySelector('.tab.active').classList.remove('active');
 
 
 
