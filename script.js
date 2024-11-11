@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
             goToSlide(newIndex);
       });
 
+       banner.querySelector('.next').addEventListener('click', () => {
 
 
 
